@@ -14,4 +14,4 @@ This is small generator of items based on 2 selections of the user: circle/squar
 </p>
 
 # Demo
-To try my project, please [go here](
+To try my project, please [go here](https://maksimdimov.github.io/shape-factory/). Please, have a quick look on it and give me a feedback to help me improve my skills.
