@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maksym Dimov">
+    <meta name="keywords" content="web developer, web, developer, front-end, html, css, javascript, react, sql">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/index.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,500;1,6..12,500&family=Playball&family=Roboto+Mono:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="./assets/scripts/index.js" defer></script>
+    <title>Shape factory</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shape factory</h1>
+        <div class="select-container">
+            <div class="shape-selector-div">
+                <label for="shape-selector">Choose the figure:</label>
+                <select name="shape" class="shape-selector" id="shape-selector">
+                    <option value="circle-option">Circle</option>
+                    <option value="square-option">Square</option>
+                </select>
+            </div>
+            <div class="colour-selector-div">
+                <label for="colour-selector">Choose the color:</label>
+                <select name="colour" class="colour-selector" id="colour-selector">
+                    <option value="09f">Blue</option>
+                    <option value="9f0">Green</option>
+                    <option value="f90">Orange</option>
+                    <option value="f09">Pink</option>
+                    <option value="90f">Purple</option>
+                </select>
+            </div>
+            <button class="create-shape" id="create-shape" value="create">Create</button>
+        </div>
+        <div class="shape-field" id="grid">
+
+        </div>
+        <div class="info-about-shape" id="info-about-shape">
+
+        </div>
+    </div>
+</body>
+</html>
